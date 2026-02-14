@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 31 111 120;
+  --color-secondary: 246 244 241;
+  --color-accent: 227 168 158;
+  --color-text: 31 41 51;
+  --color-muted: 107 114 128;
+  --color-surface: 255 255 255;
+  --color-on-primary: 255 255 255;
+}
+
+.dark {
+  --color-primary: 126 203 214;
+  --color-secondary: 13 23 30;
+  --color-accent: 229 148 134;
+  --color-text: 230 238 245;
+  --color-muted: 160 175 189;
+  --color-surface: 22 34 44;
+  --color-on-primary: 12 26 34;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  background:
+    radial-gradient(circle at top right, rgb(var(--color-accent) / 0.16), transparent 40%),
+    linear-gradient(
+      180deg,
+      rgb(var(--color-secondary)) 0%,
+      rgb(var(--color-surface)) 45%,
+      rgb(var(--color-secondary)) 100%
+    );
+  background-size: 140% 140%;
+  color: rgb(var(--color-text));
+  transition:
+    background 250ms ease,
+    color 250ms ease;
+  animation: ambientShift 18s ease-in-out infinite alternate;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading), serif;
+}
+
+.container-page {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+}
+
+.section-space {
+  @apply py-16 md:py-24;
+}
+
+@keyframes ambientShift {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 25%;
+  }
+}

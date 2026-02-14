@@ -1,0 +1,14 @@
+<svg width="720" height="840" viewBox="0 0 720 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8EEE9"/>
+      <stop offset="100%" stop-color="#DCECEE"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="840" fill="url(#bg)"/>
+  <circle cx="360" cy="295" r="125" fill="#E3A89E"/>
+  <rect x="220" y="430" width="280" height="260" rx="28" fill="#1F6F78"/>
+  <text x="360" y="760" text-anchor="middle" fill="#1F2933" font-size="28" font-family="Arial, sans-serif">
+    Dr. Maya Reynolds
+  </text>
+</svg>

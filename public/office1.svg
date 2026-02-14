@@ -1,0 +1,9 @@
+<svg width="700" height="500" viewBox="0 0 700 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="500" fill="#F4E9E1"/>
+  <rect x="60" y="80" width="580" height="340" rx="26" fill="#FFFFFF"/>
+  <rect x="120" y="140" width="180" height="180" rx="18" fill="#DCECEE"/>
+  <rect x="340" y="160" width="220" height="140" rx="16" fill="#F6F4F1"/>
+  <text x="350" y="455" text-anchor="middle" fill="#1F6F78" font-size="26" font-family="Arial, sans-serif">
+    Waiting Area
+  </text>
+</svg>

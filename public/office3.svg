@@ -1,0 +1,9 @@
+<svg width="700" height="500" viewBox="0 0 700 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="500" fill="#F6F4F1"/>
+  <rect x="70" y="90" width="560" height="320" rx="26" fill="#FFFFFF"/>
+  <circle cx="240" cy="250" r="90" fill="#E3A89E"/>
+  <rect x="350" y="160" width="200" height="180" rx="20" fill="#DCECEE"/>
+  <text x="350" y="455" text-anchor="middle" fill="#1F6F78" font-size="26" font-family="Arial, sans-serif">
+    Calm Corner
+  </text>
+</svg>
